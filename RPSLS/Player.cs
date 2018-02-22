@@ -15,7 +15,9 @@ namespace RPSLS
 
 
         public abstract void SetPlayerName();
+
         public abstract void MakePlayerChoice();
+
         internal void increaseScore()
         {
             numberOfRoundsWon++;

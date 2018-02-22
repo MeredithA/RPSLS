@@ -20,10 +20,10 @@ namespace RPSLS
             playersChoice = listOfChoices[choice];
         }
 
+
         public override void SetPlayerName()
         {
-            Console.WriteLine("What is the computer's name?");
-            playersName = Console.ReadLine();
+            playersName = "SmarterChild";
         }
     }
 }

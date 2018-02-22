@@ -20,7 +20,7 @@ namespace RPSLS
 
         public override void MakePlayerChoice()
         {
-            Console.WriteLine("Do you choose rock, paper, scissors, lizard or spock?");
+            Console.WriteLine(playersName + " do you choose rock, paper, scissors, lizard or spock?");
             playersChoice = Console.ReadLine();
         }
 
